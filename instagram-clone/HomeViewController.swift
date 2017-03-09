@@ -19,7 +19,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
 
         tableView.delegate = self
         tableView.dataSource = self
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         getPosts()
     }
 
