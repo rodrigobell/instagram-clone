@@ -15,7 +15,6 @@
 		4F19DEC71E6CF5CF00FAE10B /* instagram_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19DEC61E6CF5CF00FAE10B /* instagram_cloneTests.swift */; };
 		4F19DED21E6CF5CF00FAE10B /* instagram_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19DED11E6CF5CF00FAE10B /* instagram_cloneUITests.swift */; };
 		4F19DEE11E6D025A00FAE10B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19DEE01E6D025A00FAE10B /* HomeViewController.swift */; };
-		4F19DEE51E6D073500FAE10B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19DEE41E6D073500FAE10B /* User.swift */; };
 		4F19DEE71E6D1BA400FAE10B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19DEE61E6D1BA400FAE10B /* PostCell.swift */; };
 		4F583E871E6E5B8400888056 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F583E861E6E5B8400888056 /* Post.swift */; };
 		4F583E891E6E5F6A00888056 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F583E881E6E5F6A00888056 /* PostViewController.swift */; };
@@ -59,7 +58,6 @@
 		4F19DED11E6CF5CF00FAE10B /* instagram_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_cloneUITests.swift; sourceTree = "<group>"; };
 		4F19DED31E6CF5CF00FAE10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F19DEE01E6D025A00FAE10B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		4F19DEE41E6D073500FAE10B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4F19DEE61E6D1BA400FAE10B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		4F583E861E6E5B8400888056 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		4F583E881E6E5F6A00888056 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 		4F19DEE21E6D06EC00FAE10B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4F19DEE41E6D073500FAE10B /* User.swift */,
 				4F583E861E6E5B8400888056 /* Post.swift */,
 			);
 			name = Models;
@@ -485,7 +482,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F19DEE51E6D073500FAE10B /* User.swift in Sources */,
 				4F19DEB41E6CF5CF00FAE10B /* LoginViewController.swift in Sources */,
 				4F583E891E6E5F6A00888056 /* PostViewController.swift in Sources */,
 				4F19DEB21E6CF5CE00FAE10B /* AppDelegate.swift in Sources */,

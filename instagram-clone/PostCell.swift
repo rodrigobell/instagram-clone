@@ -18,6 +18,7 @@ class PostCell: UITableViewCell {
         didSet {
             self.postPFImageView.file = post["media"] as? PFFile
             self.postPFImageView.loadInBackground()
+            self.captionLabel.text = post["caption"] as? String
         }
     }
 

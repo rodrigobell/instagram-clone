@@ -51,7 +51,16 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func onSubmit(_ sender: Any) {
-        
+        let newImage = Post.resize(photoImageView.image!, newSize: CGSize(width: 300, height: 500))
+        Post.postUserImage(image: newImage, withCaption: captionTextView.text) { (success: Bool, error: Error?) -> Void in
+            if success {
+                self.photoImageView.image = nil
+                self.captionTextView.text = nil
+                self.dismiss(animated: true, completion: nil)
+            } else {
+                print(error!.localizedDescription)
+            }
+        }
     }
 
     @IBAction func onExit(_ sender: Any) {
